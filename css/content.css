@@ -1,0 +1,60 @@
+.content {
+    background: rgba(255, 255, 255, 0.3);
+    text-align: center;
+    color: #fff;
+    margin-inline: 30px;
+    border-radius: 20px;
+    border-width: 2px;
+    border-color: #BFBFBF;
+    border-style: solid;
+    margin-bottom: 50px;
+    padding-top: 17px;
+    padding-bottom: 6px;
+}
+
+.content-date {
+    font-size: 18px;
+}
+
+.content-temp {
+    font-size: 100px;
+    padding-left: 20px;
+}
+
+.content-sky {
+    font-size: 24px;
+    font-family: "OverpassBold";
+    margin-bottom: 34px;
+}
+
+
+.content-image {
+    width: 25px;
+    display: block;
+}
+
+.content-layout {
+    display: flex;
+    justify-content: center;
+}
+
+.content-text {
+    font-size: 18px;
+    display: inline-block;
+    text-align: left;
+    white-space: nowrap;
+}
+
+.content-text p {
+    margin-bottom: 20px;
+}
+
+.content-text p span {
+    display: inline-block;
+    width: 50%;
+}
+
+.content-text img {
+    display: inline-block;
+    vertical-align: middle;
+}

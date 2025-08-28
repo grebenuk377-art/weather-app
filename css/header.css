@@ -1,0 +1,32 @@
+.header {
+    color: white;
+    height: 37px;
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 30px;
+    align-items: center;
+    padding-top: 52px;
+}
+
+.header-location {
+    display: flex;
+    gap: 20px;
+}
+
+.header-text {
+    font-family: "OverpassBold";
+    font-size: 24px;
+}
+
+.header-search {
+    position: absolute;
+    background-color: white;
+    left: 0;
+    right: 0;
+    top: 0;
+    padding-top: 60px;
+    padding-inline: 30px;
+    padding-bottom: 37px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}

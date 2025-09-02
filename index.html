@@ -9,9 +9,9 @@
 
 	<body>
 		<div class="header">
-			<div class="header-location">
+			<div class="header-location" id="header-location">
 				<img alt="location" src="images/location.svg">
-				<p class="header-text">Semarage</p>
+				<p class="header-text">Prague</p>
 				<img alt="location" src="images/arrow.svg">
 			</div>
 
@@ -19,14 +19,27 @@
 				<img alt="location" src="images/bell.svg">
 			</div>
 			
-		    <div class="header-search">
-				<div class="header-search-input">
-					<input type="text" placeholder="Search here">
-				</div>
+		    <div class="header-search" id="header-search">
+				<input class="header-search-input" type="text" placeholder="Search here">
+				
+				<p class="header-search-title">Recent search</p>
 
-				<div class="header-search-results">
+				<ul class="header-search-results">
+					<li class="header-search-item">
+						<span>Surabaya</span>
+						<span>34° / 23°</span>
+					</li>
 
-				</div>
+					<li class="header-search-item">
+						<span>Banjarmasin</span>
+						<span>30° / 21°</span>
+					</li>
+
+					<li class="header-search-item">
+						<span>Yogyakarta</span>
+						<span>32° / 21°</span>
+					</li>
+				</ul>
 			</div>
 		</div>
 
@@ -35,8 +48,8 @@
 		</div>
 
 		<div class="content">
-			<p class="content-date">Today, 12 September</p>
-			<p class="content-temp">29°</p>
+			<p class="content-date" id="content-date">Today, 12 September</p>
+			<p class="content-temp" id="content-temp">29°</p>
 			<p class="content-sky">Cloudy</p>
 
 			<div class="content-layout">
@@ -62,5 +75,7 @@
 				<img alt="location" src="images/arrowbottom.svg" class="bottomimage">
 			</button>
 		</div>
+
+		<script src="js/main.js"></script>
 	</body>
 </html>

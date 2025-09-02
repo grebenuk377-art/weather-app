@@ -5,7 +5,7 @@
     justify-content: space-between;
     padding-inline: 30px;
     align-items: center;
-    padding-top: 52px;
+    margin-top: 40px;
 }
 
 .header-location {
@@ -19,6 +19,7 @@
 }
 
 .header-search {
+    color: #444e72;
     position: absolute;
     background-color: white;
     left: 0;
@@ -29,4 +30,58 @@
     padding-bottom: 37px;
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
+    margin-top: -100%;
+    transition: margin-top 0.5s;
+}
+
+.header-search-opened {
+    margin-top: 0;
+}
+
+.header-search-input {
+    border: 0;
+    box-shadow: 2px -3px 6px 0 rgba(0, 0, 0, 0.1) inset;
+    border-radius: 15px;
+    color: #444e72;
+    font-size: 18px;
+    height: 57px;
+    margin-bottom: 40px;
+    padding-inline: 20px;
+    width: 100%;
+
+}
+
+.header-search-input::placeholder {
+    color: #838baa;
+}
+
+.header-search-input:focus {
+    outline: none;
+}
+
+.header-search-title {
+    font-family: "OverpassBold`";
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+
+.header-search-results {
+    display: flex;
+    flex-direction: column;
+    font-family: "OverpassBold";
+    gap: 40px;
+    list-style: none;
+}
+
+.header-search-item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-search-item>span:first-of-type {
+    font-size: 18px;
+}
+
+.header-search-item>span:last-of-type {
+    font-size: 14px;
 }
